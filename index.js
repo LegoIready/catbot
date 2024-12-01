@@ -1,7 +1,7 @@
 require('dotenv').config()
 const http = require("http");
 const app = require("express")();
-const Discord = require("discord.js");
+const { Discord, GatewayIntentBits } = require("discord.js");
 const db = require("quick.db");
 const client = new Discord.Client({
 	intents: [
