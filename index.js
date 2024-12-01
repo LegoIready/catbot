@@ -3,7 +3,13 @@ const http = require("http");
 const app = require("express")();
 const Discord = require("discord.js");
 const db = require("quick.db");
-const client = new Discord.Client();
+const client = new Discord.Client({
+	intents: [
+		GatewayIntentBits.Guilds,
+		GatewayIntentBits.GuildMessages,
+		GatewayIntentBits.MessageContent
+	]
+});
 client.on("ready", () => {
   client.user.setActivity("%help", { type: "PLAYING" });
 })
