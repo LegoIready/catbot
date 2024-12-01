@@ -52,8 +52,8 @@ Pet your server's CatBot. CatBot likes pets often, but not *too* often. Try to p
 \`${bar0}wipe <server|account>\`
 Wipe all CatBot data for this server or for your account on this server.
 
-Join the CatBot support server!
-https://discord.gg/gV2MFGJ
+Invite CatBot to your server!
+https://discord.com/oauth2/authorize?client_id=737051690347397202
 
 *By using this bot you agree to have your server ID and account ID saved. If you do not agree to this, do not use this bot. Server IDs are saved when CatBot's settings for this server are changed. Account IDs are ONLY saved for people who use CatBot's commands. No data is saved for ${bar0}help.*`);
         break;
